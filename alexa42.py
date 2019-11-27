@@ -1,5 +1,7 @@
 import alexandra
 
+app = alexandra.Application()
+
 @app.launch
 def launch_handler(item):
     return alexandra.respond(ssml="<speak>42</speak>")
